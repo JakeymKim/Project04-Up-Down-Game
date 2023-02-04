@@ -4,7 +4,7 @@ body {
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    background-image:url(https://happist.com/wp-content/uploads/2016/07/%ED%99%94%EC%9A%94-%EB%9D%BC%EC%9D%B4%ED%94%84-%EC%8A%A4%ED%83%80%EC%9D%BC-%EC%9D%B4%EB%AF%B8%EC%A7%80-Hwayo-lifestyle-1.jpg);
+    background-image:url('./image/화요.webp');
     background-size:cover;
 }
 
