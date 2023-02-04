@@ -17,6 +17,12 @@ body {
     background-color:rgba(247, 243, 242, 0.7);
 }
 
+@media screen and (max-width:48rem){
+    .container{
+        position:sticky;
+    }
+}
+
 .h1-font{
     font-family:"Audiowide", sans-serif;
     font-size:5vw;
