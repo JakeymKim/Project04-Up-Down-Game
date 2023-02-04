@@ -1,0 +1,149 @@
+body {
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-image:url(https://happist.com/wp-content/uploads/2016/07/%ED%99%94%EC%9A%94-%EB%9D%BC%EC%9D%B4%ED%94%84-%EC%8A%A4%ED%83%80%EC%9D%BC-%EC%9D%B4%EB%AF%B8%EC%A7%80-Hwayo-lifestyle-1.jpg);
+    background-size:cover;
+}
+
+.container{
+    text-align:center;
+    max-width:1140px;
+    padding:15px 0px;
+    border:10px solid white;
+    border-radius:20px;
+    background-color:rgba(247, 243, 242, 0.7);
+}
+
+@media screen and (max-width:48rem){
+    .container{
+        height:100%;
+    }
+}
+
+.h1-font{
+    font-family:"Audiowide", sans-serif;
+    font-size:5vw;
+    font-weight:bold;
+    margin:15px 0px;
+}
+
+@media screen and (max-width:48rem){
+    .h1-font{
+        font-size:11vw;
+        margin:11vw 0vw 6vw 0vw;
+    }
+}
+
+.h2-font{
+    font-family:"Audiowide", sans-serif;
+    font-size:3vw;
+    margin:20px 0px;
+}
+
+@media screen and (max-width:48rem){
+    .h2-font{
+        font-size:7vw;
+        margin:1vw 0vw 6vw 0vw;
+    }
+}
+
+.game-main{
+    margin:10px 0px 10px 0px;
+}
+
+.main-img{
+    width:25vw;
+    height:18vw;
+    margin-bottom:15px;
+}
+
+@media screen and (max-width:48rem){
+    .main-img{
+        width:55vw;
+        height:40vw;
+        margin-bottom:5vw;
+    }
+}
+
+.result-font{
+    font-family:'Gamja Flower', cursive;
+    font-weight:bold;
+    font-size:3vw;
+    margin-bottom:10px;
+}
+
+@media screen and (max-width:48rem){
+    .result-font{
+        font-size:6vw;
+        margin-bottom:1vw;
+    }
+}
+
+.chances-font{
+    font-family:'Gamja Flower', cursive;
+    font-weight:bold;
+    font-size:2.5vw;
+    margin-bottom:15px;
+}
+
+@media screen and (max-width:48rem){
+    .chances-font{
+        font-size:5vw;
+        margin-bottom:6vw;
+    }
+}
+
+.input-box{
+    width:20vw;
+    font-size:3vw;
+}
+
+@media screen and (max-width:48rem){
+    .input-box{
+        width:60vw;
+        font-size:6vw;
+    }
+}
+
+.input-area{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+@media screen and (max-width:48rem){
+    .input-area{
+        display:flex;
+        flex-direction:column;
+    }
+}
+
+.play-btn{
+    font-size:3vw;
+    border-radius:50px;
+    margin-left:2vW;
+    margin-right:2.5vW;
+}
+
+@media screen and (max-width:48rem){
+    .play-btn{
+        font-size:5vw;
+        border-radius:50px;
+        margin:4vw 0vw 6vw 0vw;
+    }
+}
+
+.reset-btn{
+    font-size:2vw;
+    border-radius:50px;
+}
+
+@media screen and (max-width:48rem){
+    .reset-btn{
+        font-size:3vw;
+        border-radius:50px;
+    }
+}
