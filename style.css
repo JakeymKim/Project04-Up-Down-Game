@@ -92,13 +92,15 @@ body {
 
 .input-box{
     width:20vw;
-    font-size:3vw;
+    height:5vw;
+    font-size:1.5vw;
 }
 
 @media screen and (max-width:48rem){
     .input-box{
         width:60vw;
-        font-size:6vw;
+        height:15vw;
+        font-size:4.5vw;
     }
 }
 
